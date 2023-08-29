@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89206B1A27F5C13A0058081B /* iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B1927F5C13A0058081B /* iOSAppApp.swift */; };
-		89206B1C27F5C13A0058081B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B1B27F5C13A0058081B /* ContentView.swift */; };
-		89206B1E27F5C13C0058081B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89206B1D27F5C13C0058081B /* Assets.xcassets */; };
-		89206B2127F5C13C0058081B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89206B2027F5C13C0058081B /* Preview Assets.xcassets */; };
 		89206B2C27F5C16D0058081B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89206B2B27F5C16D0058081B /* Assets.xcassets */; };
 		89206B3227F5C16D0058081B /* WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89206B3127F5C16D0058081B /* WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		89206B3727F5C16D0058081B /* iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B3627F5C16D0058081B /* iOSAppApp.swift */; };
@@ -27,7 +23,6 @@
 		89206B5827F5CB2C0058081B /* SendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B5627F5CB2C0058081B /* SendData.swift */; };
 		89206B5A27F5D4200058081B /* ShowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B5927F5D4200058081B /* ShowData.swift */; };
 		89206B5B27F5D4200058081B /* ShowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B5927F5D4200058081B /* ShowData.swift */; };
-		89206B5D27F5D6FB0058081B /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B5C27F5D6FB0058081B /* WatchConnector.swift */; };
 		89206B5F27F5D7D30058081B /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89206B5E27F5D7D30058081B /* PhoneConnector.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,10 +70,6 @@
 
 /* Begin PBXFileReference section */
 		89206B1627F5C13A0058081B /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89206B1927F5C13A0058081B /* iOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppApp.swift; sourceTree = "<group>"; };
-		89206B1B27F5C13A0058081B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		89206B1D27F5C13C0058081B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		89206B2027F5C13C0058081B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89206B2927F5C16B0058081B /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89206B2B27F5C16D0058081B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89206B3127F5C16D0058081B /* WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +85,6 @@
 		89206B5327F5C2350058081B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		89206B5627F5CB2C0058081B /* SendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendData.swift; sourceTree = "<group>"; };
 		89206B5927F5D4200058081B /* ShowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowData.swift; sourceTree = "<group>"; };
-		89206B5C27F5D6FB0058081B /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
 		89206B5E27F5D7D30058081B /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,21 +130,8 @@
 		89206B1827F5C13A0058081B /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				89206B1927F5C13A0058081B /* iOSAppApp.swift */,
-				89206B1B27F5C13A0058081B /* ContentView.swift */,
-				89206B1D27F5C13C0058081B /* Assets.xcassets */,
-				89206B1F27F5C13C0058081B /* Preview Content */,
-				89206B5C27F5D6FB0058081B /* WatchConnector.swift */,
 			);
 			path = iOSApp;
-			sourceTree = "<group>";
-		};
-		89206B1F27F5C13C0058081B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				89206B2027F5C13C0058081B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		89206B2A27F5C16B0058081B /* WatchApp */ = {
@@ -302,8 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89206B2127F5C13C0058081B /* Preview Assets.xcassets in Resources */,
-				89206B1E27F5C13C0058081B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89206B5427F5C2360058081B /* Model.swift in Sources */,
-				89206B5D27F5D6FB0058081B /* WatchConnector.swift in Sources */,
 				89206B5A27F5D4200058081B /* ShowData.swift in Sources */,
 				89206B5727F5CB2C0058081B /* SendData.swift in Sources */,
-				89206B1C27F5C13A0058081B /* ContentView.swift in Sources */,
-				89206B1A27F5C13A0058081B /* iOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
